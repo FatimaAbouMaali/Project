@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<script>
+    let i = 0;
+    let images = [];
+    let time = 4000;
+
+
+    images[0] = "assets/images/banner1C.jpeg";
+    images[1] = "assets/images/banner2C.jpeg";
+    images[2] = "assets/images/banner3C.jpeg";
+    images[3] = "assets/images/banner4C.jpeg";
+
+
+    function slideShow() {
+        let slide = document.getElementById('slide');
+
+        slide.src = images[i];
+
+        if (i < images.length - 1) {
+            i++
+        }
+        else {
+            i = 0;
+        }
+        setTimeout("slideShow()", time)
+    }
+    //window.onload = slideShow;
+</script>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <title>MUSEUM </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-eduwell-style.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+    <!--
+
+TemplateMo 573 EduWell
+
+https://templatemo.com/tm-573-eduwell
+
+-->
+</head>
+
+<body>
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="index.html" class="logo">
+                            MUSEUM OF ISLAMIC ART
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="index.html" class="active">Home</a></li>
+                            <li class="scroll-to-section"><a href="#services">Events</a></li>
+                            <li class="scroll-to-section"><a href="#courses">Exhibitions</a></li>
+                            <li class="has-sub">
+                                <a href="javascript:void(0)">Pages</a>
+                                <ul class="sub-menu">
+                                    <li><a href="about-us.html">About Us</a></li>
+                                    <li><a href="our-services.html">Art</a></li>
+                                    <li><a href="contact-us.html">Tickets</a></li>
+                                    <li><a href="contact-us.html">Merch</a></li>
+                                </ul>
+                            </li>
+                            <li class="scroll-to-section"><a href="#testimonials">Feedback</a></li>
+                            <li class="scroll-to-section"><a href="#contact-section">Contact Us</a></li>
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+
+    <!-- ***** Main Banner Area Start ***** -->
+    <section class="main-banner" id="top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 align-self-center">
+    
+                </div>
+                <div id="bannerdiv"><img id="slide" src="assets/images/banner5C.jpg" alt=""></div>
+    
+            </div>
+        </div>
+    </section>
+    <!-- ***** Main Banner Area End ***** -->
+
+
+    <!-- ***** Text Area Start ***** -->
+<section id="text">
+    <h1>Current Exhibitions</h1>
+    <p id="para1">On a purpose-built island abutting the Corniche, Doha’s waterfront promenade, the building itself is
+        an architectural
+        wonder designed by Pritzker Prize winning architect I.M. Pei. The museum contains four floors of permanent and
+        temporary
+        exhibitions, gift shop, a café and a haute cuisine restaurant IDAM by renowned chef Alain Ducasse, on the fifth
+        floor.
+        It is also home to a heritage library, with a collection of 21,000 books including 2000 rare editions in both
+        Arabic and
+        English</p>
+
+
+<!--Exhibitions Cards start-->
+<div>
+<div style="float: right inherit;" class="card border-success mb-3" style="max-width: 5rem;">
+    <div class="card-header">Header</div>
+    <div class="card-body">
+        <h4 class="card-title">Success card title</h4>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+    </div>
+</div>
+
+<div style="float: right inherit;" class="card border-warning mb-3" style="max-width: 10rem;">
+    <div class="card-header">Header</div>
+    <div class="card-body">
+        <h4 class="card-title">Warning card title</h4>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+    </div>
+</div>
+<div style="float: left;" class="card border-success mb-3" style="max-width: 5rem;">
+    <div class="card-header">Header</div>
+    <div class="card-body">
+        <h4 class="card-title">Success card title</h4>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+    </div>
+</div>
+<div style="float: right inherit;" class="card border-warning mb-3" style="max-width: 10rem;">
+    <div class="card-header">Header</div>
+    <div class="card-body">
+        <h4 class="card-title">Warning card title</h4>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+    </div>
+</div>
+<div class="clea"></div>
+</div>
+
+<!--Exhibitions Cards end-->
+</section>
+
+
+
+
+
+    <!--***** Footer Area Start******-->
+    <section class="contact-us" id="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div id="map">
+    
+                      
+                    </div>
+                </div>
+
+                <div class="col-lg-12">
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-12">
+                    <p class="copyright">Copyright © 2022 EduWell Co., Ltd. All Rights Reserved.
+    
+                        <br>Design: <a rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--***** Footer Area End******-->
+</body>

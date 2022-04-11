@@ -5,7 +5,33 @@ html.lb-disable-scrolling {
   height: 100vh;
   width: 100vw;
 }
+/*----------------------My style -------------*/
+#text{
+  width: 80%;
+  margin: auto;
+  padding-top: 3%;
+  font-family: 'Times New Roman', Times, serif;
+}
 
+#para1{
+  width: 60%;
+  padding: 2% 0% ;
+}
+
+#fees{
+  margin: 1%;
+}
+#fees li{
+  padding: 1%;
+}
+
+a {
+  color: inherit;
+}
+.clear{
+  clear: both;
+}
+/*-------------------------------------------------------*/
 .lightboxOverlay {
   position: absolute;
   top: 0;
