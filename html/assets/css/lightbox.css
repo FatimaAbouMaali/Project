@@ -31,6 +31,16 @@ a {
 .clear{
   clear: both;
 }
+
+#exhibitions img{
+  width: 90%;
+}
+
+.card{
+  width: 32%;
+  margin: 5px;
+  height: 550px;
+}
 /*-------------------------------------------------------*/
 .lightboxOverlay {
   position: absolute;
