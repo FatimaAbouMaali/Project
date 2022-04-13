@@ -41,6 +41,66 @@ a {
   margin: 5px;
   height: 550px;
 }
+
+
+/* collection page */
+.collection {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.collection h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.collection .row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.collection 
+.row,
+.row>.column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.collection 
+.column {
+  float: left;
+  width: 30%;
+  margin: 1%;
+}
+
+/* Clear floats after rows */
+.collection 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.collection 
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
 /*-------------------------------------------------------*/
 .lightboxOverlay {
   position: absolute;
