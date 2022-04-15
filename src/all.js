@@ -19,3 +19,12 @@ function slideShow() {
     }
     setTimeout("slideShow()", time)
 }
+
+function direct() {
+    document.getElementById('my-button').addEventListener('click', () => {
+        location.href = 'https://whaa.dev';
+    });
+}
+document.getElementById('my-button').addEventListener('click', () => {
+    location.href = 'https://whaa.dev';
+});
