@@ -9,10 +9,10 @@
     let time = 4000;
 
 
-    images[0] = "assets/images/banner1C.jpeg";
-    images[1] = "assets/images/banner2C.jpeg";
-    images[2] = "assets/images/banner3C.jpeg";
-    images[3] = "assets/images/banner4C.jpeg";
+    images[0] = "assets/images/exBanner.jpg";
+    images[1] = "assets/images/banner5C.jpg";
+    //images[2] = "assets/images/banner3C.jpeg";
+    //images[3] = "assets/images/banner4C.jpeg";
 
 
     function slideShow() {
@@ -28,7 +28,7 @@
         }
         setTimeout("slideShow()", time)
     }
-    //window.onload = slideShow;
+    window.onload = slideShow;
 </script>
 
 <head>
@@ -60,44 +60,44 @@ https://templatemo.com/tm-573-eduwell
 </head>
 
 <body>
-    <!-- ***** Header Area Start ***** -->
-    <header class="header-area header-sticky">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <nav class="main-nav">
-                        <!-- ***** Logo Start ***** -->
-                        <a href="index.html" class="logo">
-                            MUSEUM OF ISLAMIC ART
-                        </a>
-                        <!-- ***** Logo End ***** -->
-                        <!-- ***** Menu Start ***** -->
-                        <ul class="nav">
-                            <li class="scroll-to-section"><a href="index.html" class="active">Home</a></li>
-                            <li class="scroll-to-section"><a href="#services">Events</a></li>
-                            <li class="scroll-to-section"><a href="#courses">Exhibitions</a></li>
-                            <li class="has-sub">
-                                <a href="javascript:void(0)">Pages</a>
-                                <ul class="sub-menu">
-                                    <li><a href="about-us.html">About Us</a></li>
-                                    <li><a href="our-services.html">Art</a></li>
-                                    <li><a href="contact-us.html">Tickets</a></li>
-                                    <li><a href="contact-us.html">Merch</a></li>
-                                </ul>
-                            </li>
-                            <li class="scroll-to-section"><a href="#testimonials">Feedback</a></li>
-                            <li class="scroll-to-section"><a href="#contact-section">Contact Us</a></li>
-                        </ul>
-                        <a class='menu-trigger'>
-                            <span>Menu</span>
-                        </a>
-                        <!-- ***** Menu End ***** -->
-                    </nav>
-                </div>
+<!-- ***** Header Area Start ***** -->
+<header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="index.html" class="logo">
+                        MUSEUM OF ISLAMIC ART
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="exhibitions.html">Exhibitions</a></li>
+                        <li class="has-sub">
+                            <a href="javascript:void(0)">Pages</a>
+                            <ul class="sub-menu">
+                                <li><a href="about-us.html">About Us</a></li>
+                                <li><a href="arts.html">Art</a></li>
+                                <li><a href="tickets.html">Tickets</a></li>
+                                <li><a href="collection.html">Collections</a></li>
+                            </ul>
+                        </li>
+                        <li class="scroll-to-section"><a href="#testimonials">Feedback</a></li>
+                        <li class="scroll-to-section"><a href="#contact-section">Contact Us</a></li>
+                    </ul>
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
             </div>
         </div>
-    </header>
-    <!-- ***** Header Area End ***** -->
+    </div>
+</header>
+<!-- ***** Header Area End ***** -->
 
 
     <!-- ***** Main Banner Area Start ***** -->
@@ -130,46 +130,92 @@ https://templatemo.com/tm-573-eduwell
 
 
 <!--Exhibitions Cards start-->
-<div>
-<div style="float: right inherit;" class="card border-success mb-3" style="max-width: 5rem;">
-    <div class="card-header">Header</div>
+<div id="exhibitions">
+
+<div style="float: left ;" class="card border-success mb-3" >
+    <div class="card-header">A Falcon's Eye</div>
     <div class="card-body">
-        <h4 class="card-title">Success card title</h4>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
+<img src="./assets/images/falconEx.jpg">
+       
+        <h5 class="card-title">2 August 2020 – 10 April 2021 </h5>
+        <p class="card-text">Sheikh Saoud was passionate about cabinets of curiosities and the combination between natural history and antiquities in
+        particular. The exhibition will pay tribute to his collecting vision through an eclectic display including natural
+        history, antiquities, jewellery.</p>
     </div>
 </div>
 
-<div style="float: right inherit;" class="card border-warning mb-3" style="max-width: 10rem;">
-    <div class="card-header">Header</div>
+
+<div style="float: left;" class="card border-warning mb-3"  >
+    <div class="card-header">Syria Matters</div>
     <div class="card-body">
-        <h4 class="card-title">Warning card title</h4>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
+    <img src="./assets/images/SyriyaEx.jpg">
+    
+    <h5 class="card-title">22 November 2018 - 30 April 2019</h5>
+    <p class="card-text">This exhibition will bring to life the multifaceted layers of Syria’s architectural and cultural history going as far
+    back as the country’s early pre-Islamic past and will explore its many contributions to world history.</p>
     </div>
 </div>
-<div style="float: left;" class="card border-success mb-3" style="max-width: 5rem;">
-    <div class="card-header">Header</div>
+
+
+<div style="float: left;" class="card border-success mb-3" >
+    <div class="card-header">Qajar Women</div>
     <div class="card-body">
-        <h4 class="card-title">Success card title</h4>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
+        <img src="./assets/images/qajarEx.jpg">
+        
+        <h5 class="card-title">8 April 2015 - 11 June 2016 </h5>
+        <p class="card-text">Images of Women in 19th century Iran. This exhibition showcases Qajar artwork from the MIA collection that demonstrate the centrality of women in the artistic
+        expression of 19th-century Iran and explores how these historic innovations continue to inspire contemporary artists.</p>
     </div>
 </div>
-<div style="float: right inherit;" class="card border-warning mb-3" style="max-width: 10rem;">
-    <div class="card-header">Header</div>
+
+<div class="clear"></div>
+
+<div style="float: left ;" class="card border-warning mb-3" >
+    <div class="card-header">The Hunt</div>
     <div class="card-body">
-        <h4 class="card-title">Warning card title</h4>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
+        <img src="./assets/images/huntEx.jpg">
+        
+        <h5 class="card-title">16 September 2015 - 9 January 2016 </h5>
+        <p class="card-text">The act of hunting, rich with symbolism and pageantry, was (and in some places continues to be) an essential element in
+        the lifestyle of rulers throughout the Islamic world. As such, images of the hunt are commonly found in Islamic art,
+        whether in lavishly illustrated manuscripts, inlaid metalwork or colourful ceramics.</p>
     </div>
 </div>
-<div class="clea"></div>
+
+<div style="float: left;" class="card border-success mb-3">
+    <div class="card-header">Hajj</div>
+    <div class="card-body">
+        <img src="./assets/images/hajjEx.jpg">
+
+        <h5 class="card-title">9 October 2013 - 5 January 2014 </h5>
+        <p class="card-text">This MIA-curated exhibition took visitors on a journey exploring and illuminating the Muslim pilgrimage of Hajj. It
+        presented artworks from MIA and objects from Qatari collections. The exhibition examined the history of this pilgrimage
+        through the centuries, focusing on the rituals of Hajj as depicted through art, the routes taken and the experiences of
+        pilgrims upon their return..</p>
+    </div>
+</div>
+
+
+<div style="float: left;" class="card border-warning mb-3">
+    <div class="card-header">Set in Stone</div>
+    <div class="card-body">
+        <img src="./assets/images/setinstoneEx.jpg">
+
+        <h5 class="card-title">23rd of October 2019 - 18th January 2020 </h5>
+        <p class="card-text">In celebration of the 2019 Year of Culture Qatar-India, the Museum of Islamic Art (MIA) is delighted to present an
+        exhibition on magnificent gems and jewellery from India. Set in Stone: Gems and Jewels from Royal Indian Courts will
+        showcase more than 100 spectacular pieces.</p>
+    </div>
+</div>
+
+<div class="clear"></div>
+
+<div class="clear"></div>
 </div>
 
 <!--Exhibitions Cards end-->
 </section>
-
+    
 
 
 

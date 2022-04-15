@@ -1345,7 +1345,7 @@ section.our-team .section-heading p {
   padding: 0px 60px;
 }
 
-section.our-team:before {
+/* section.our-team:before {
   position: absolute;
   content: '';
   background-image: url(../images/our-courses-left-dec.png);
@@ -1354,9 +1354,10 @@ section.our-team:before {
   width: 291px;
   height: 231px;
   z-index: 1;
-}
+  border: 1px solid red;
+} */
 
-section.our-team:after {
+/* section.our-team:after {
   position: absolute;
   content: '';
   background-image: url(../images/our-courses-right-dec.png);
@@ -1365,7 +1366,8 @@ section.our-team:after {
   width: 291px;
   height: 231px;
   z-index: 1;
-}
+  border: 1px solid red;
+} */
 
 section.our-team .naccs {
   position: relative;
@@ -1381,7 +1383,7 @@ section.our-team .naccs .menu div {
   margin: 0px 15px;
   text-align: center;
   display: inline-block;
-  width: 15%;
+  width: 25%;
   text-align: center;
   font-size: 20px;
   color: #111;
@@ -1453,11 +1455,13 @@ section.our-team ul.nacc li .right-image {
 section.our-team ul.nacc li .right-image img {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
+  width: 70%;
+  float:right;
 }
 
 section.our-team ul.nacc li .left-content {
   text-align: left;
-  margin-right: 380px;
+  margin-right: 390px;
 }
 
 section.our-team ul.nacc li .left-content h4 {
