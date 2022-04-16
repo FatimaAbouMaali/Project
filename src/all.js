@@ -2,10 +2,12 @@
 let i = 0;
 let images = [];
 let time = 4000;
-//images[0] = "assets/images/banner1C.jpeg";
-//images[1] = "assets/images/banner2C.jpeg";
-//images[2] = "assets/images/banner3C.jpeg";
-//images[3] = "assets/images/banner4C.jpeg";
+images[0] = "assets/images/banner1C.jpeg";
+images[1] = "assets/images/banner2C.jpeg";
+images[2] = "assets/images/banner3C.jpeg";
+images[3] = "assets/images/banner4C.jpeg";
+
+
 function slideShow() {
     let slide = document.getElementById('slide');
 
@@ -20,8 +22,3 @@ function slideShow() {
     setTimeout("slideShow()", time)
 }
 
-function direct() {
-    document.getElementById('my-button').addEventListener('click', () => {
-        location.href = 'https://whaa.dev';
-    });
-}
