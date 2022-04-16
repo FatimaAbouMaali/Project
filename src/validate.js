@@ -63,6 +63,7 @@ function validateForm() {
         return true
     }
     else {
+        alert("please complete the form ");
         return false
     }
 }
