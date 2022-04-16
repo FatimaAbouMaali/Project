@@ -19,3 +19,11 @@ test('test undefiend ', () => {
     let n;
     !expect(n).toBeUndefined()
 })
+
+test('test object ', () => {
+    let ob = {
+        name: "asma",
+        age: 21
+    };
+    expect(ob).toHaveProperty("age")
+})
