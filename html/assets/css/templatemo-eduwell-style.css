@@ -188,7 +188,13 @@ global styles
 html,
 body {
   background: #fff;
+<<<<<<< HEAD
   font-family: "Open Sans", sans-serif;
+=======
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-family:'Times New Roman', Times, serif;
+  
+>>>>>>> 7fc52fc02ad28fb7cd045d58af281248cbf6aa9f
 }
 
 ::selection {
@@ -197,7 +203,7 @@ body {
 }
 
 ::-moz-selection {
-  background: #dc8cdb;
+  background: #dcc38c;
   color: #fff;
 }
 
@@ -221,12 +227,17 @@ body {
 .main-button-gradient a {
   font-size: 13px;
   color: #fff;
+<<<<<<< HEAD
   background: rgb(219, 138, 222);
   background: linear-gradient(
     -145deg,
     rgba(219, 138, 222, 1) 0%,
     rgba(246, 191, 159, 1) 100%
   );
+=======
+  background: rgb(210, 222, 138);
+  background: linear-gradient(-145deg, rgb(218, 228, 194) 0%, rgba(246,191,159,1) 100%);
+>>>>>>> 7fc52fc02ad28fb7cd045d58af281248cbf6aa9f
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
@@ -236,18 +247,23 @@ body {
 }
 
 .main-button-gradient a:hover {
+<<<<<<< HEAD
   background: rgb(219, 138, 222);
   background: linear-gradient(
     -145deg,
     rgba(219, 138, 222, 1) 0%,
     rgba(246, 191, 159, 1) 100%
   );
+=======
+  background: rgb(223, 237, 114);
+  background: linear-gradient(-145deg, rgb(222, 203, 138) 0%, rgba(246,191,159,1) 100%);
+>>>>>>> 7fc52fc02ad28fb7cd045d58af281248cbf6aa9f
   opacity: 0.9;
 }
 
 .white-button a {
   font-size: 13px;
-  color: #dc8cdb;
+  color: #d5dc8c;
   background-color: #fff;
   padding: 12px 30px;
   display: inline-block;
@@ -264,7 +280,7 @@ body {
 .text-button a {
   font-size: 14px;
   font-weight: 500;
-  color: #dc8cdb;
+  color: #dccd8c;
   text-decoration: underline !important;
   transition: all 0.3s;
 }
@@ -308,7 +324,7 @@ section {
 
 .section-heading h4 em {
   font-style: normal;
-  color: #dc8cdb;
+  color: #d0dc8c;
 }
 
 .section-heading p {
@@ -321,6 +337,7 @@ header
 --------------------------------------------- 
 */
 .background-header {
+<<<<<<< HEAD
   background: rgb(219, 138, 222) !important;
   background: linear-gradient(
     -145deg,
@@ -330,6 +347,13 @@ header
   height: 80px !important;
   position: fixed !important;
   top: 0 !important;
+=======
+  background: rgb(212, 222, 138) !important;
+  background: linear-gradient(-145deg, rgb(200, 222, 138) 0%, rgba(246,191,159,1) 100%) !important;
+  height: 80px!important;
+  position: fixed!important;
+  top: 0!important;
+>>>>>>> 7fc52fc02ad28fb7cd045d58af281248cbf6aa9f
   left: 0;
   right: 0;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15) !important;
@@ -359,7 +383,7 @@ header
 
 .header-area .main-nav .logo {
   line-height: 100px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 28px;
   font-weight: 700;
   text-transform: uppercase;
@@ -484,7 +508,11 @@ header
 
 .header-area .main-nav .nav li.has-sub ul li a:hover {
   background: #fff;
+<<<<<<< HEAD
   color: #dc8cdb !important;
+=======
+  color: #b37d19!important;
+>>>>>>> 7fc52fc02ad28fb7cd045d58af281248cbf6aa9f
   padding-left: 25px;
 }
 
@@ -624,7 +652,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #dc8cdb;
+  color: #dccb8c;
 }
 
 @media (max-width: 1200px) {
@@ -643,7 +671,11 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
+<<<<<<< HEAD
     color: #dc8cdb !important;
+=======
+    color: #cfa950!important;
+>>>>>>> 7fc52fc02ad28fb7cd045d58af281248cbf6aa9f
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -701,7 +733,11 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
+<<<<<<< HEAD
     color: #dc8cdb !important;
+=======
+    color: #dcc78c!important;
+>>>>>>> 7fc52fc02ad28fb7cd045d58af281248cbf6aa9f
   }
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
     position: relative;
@@ -811,7 +847,7 @@ section.main-banner {
 
 .main-banner .header-text h2 em {
   font-style: normal;
-  color: #dc8cdb;
+  color: #d3b372;
 }
 
 .main-banner .main-button-gradient {
@@ -825,6 +861,9 @@ services
 ---------------------------------------------
 */
 
+#services{
+  margin-top: 1%;
+}
 .services .item {
   border-radius: 15px;
   text-align: center;
@@ -866,7 +905,7 @@ services
 }
 
 .services .owl-dots .active {
-  background-color: #dc8cdb;
+  background-color: #d3bd75;
 }
 
 /*
@@ -1136,7 +1175,7 @@ section.testimonials:after {
 .testimonials .item span {
   font-size: 13px;
   font-weight: 700;
-  color: #dc8cdb;
+  color: #dccf8c;
 }
 
 .testimonials .item img {
@@ -1161,7 +1200,7 @@ section.testimonials:after {
 }
 
 .testimonials .owl-dots .active {
-  background-color: #dc8cdb;
+  background-color: #dcc58c;
 }
 
 /* 
@@ -1209,12 +1248,17 @@ section.contact-us .contact-info .icon i {
   text-align: center;
   line-height: 50px;
   border-radius: 50%;
+<<<<<<< HEAD
   background: rgb(219, 138, 222);
   background: linear-gradient(
     -145deg,
     rgba(219, 138, 222, 1) 0%,
     rgba(246, 191, 159, 1) 100%
   );
+=======
+  background: rgb(222, 207, 138);
+  background: linear-gradient(-145deg, rgb(222, 212, 138) 0%, rgba(246,191,159,1) 100%);
+>>>>>>> 7fc52fc02ad28fb7cd045d58af281248cbf6aa9f
   color: #fff;
 }
 
@@ -1226,7 +1270,7 @@ section.contact-us .contact-info h4 {
 
 section.contact-us .contact-info span {
   font-size: 15px;
-  color: #dc8cdb;
+  color: #dcc58c;
   font-weight: 700;
 }
 
@@ -1281,12 +1325,17 @@ section.contact-us #contact button {
   float: right;
   font-size: 13px;
   color: #fff;
+<<<<<<< HEAD
   background: rgb(219, 138, 222);
   background: linear-gradient(
     -145deg,
     rgba(219, 138, 222, 1) 0%,
     rgba(246, 191, 159, 1) 100%
   );
+=======
+  background: rgb(222, 196, 138);
+  background: linear-gradient(-145deg, rgb(222, 200, 138) 0%, rgba(246,191,159,1) 100%);
+>>>>>>> 7fc52fc02ad28fb7cd045d58af281248cbf6aa9f
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
@@ -1319,13 +1368,13 @@ section.contact-us ul.social-icons li a {
   text-align: center;
   line-height: 44px;
   background-color: #fff;
-  color: #dc8cdb;
+  color: #dcc58c;
   border-radius: 50%;
   transition: all 0.5s;
 }
 
 section.contact-us ul.social-icons li a:hover {
-  background-color: #dc8cdb;
+  background-color: #dcc38c;
   color: #fff;
 }
 
