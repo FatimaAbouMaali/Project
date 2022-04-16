@@ -5,7 +5,9 @@ name: Node.js CI
 
 on:
   push:
-    branches: [asma]
+    branches: [linetrs]
+  pull_request:
+    branches: [linters]
 
 jobs:
   build:
