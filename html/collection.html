@@ -1,55 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<script>
+  <script>
     let i = 0;
     let images = [];
     let time = 4000;
-
 
     //images[0] = "assets/images/banner1C.jpeg";
     //images[1] = "assets/images/banner2C.jpeg";
     //images[2] = "assets/images/banner3C.jpeg";
     //images[3] = "assets/images/banner4C.jpeg";
 
-
     function slideShow() {
-        let slide = document.getElementById('slide');
+      let slide = document.getElementById("slide");
 
-        slide.src = images[i];
+      slide.src = images[i];
 
-        if (i < images.length - 1) {
-            i++
-        }
-        else {
-            i = 0;
-        }
-        setTimeout("slideShow()", time)
+      if (i < images.length - 1) {
+        i++;
+      } else {
+        i = 0;
+      }
+      setTimeout("slideShow()", time);
     }
     //window.onload = slideShow;
+  </script>
 
-   
-</script>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
 
-<head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-
-    <title>MUSEUM </title>
+    <title>MUSEUM</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-eduwell-style.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/lightbox.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/css/templatemo-eduwell-style.css" />
+    <link rel="stylesheet" href="assets/css/owl.css" />
+    <link rel="stylesheet" href="assets/css/lightbox.css" />
     <!--
 
 TemplateMo 573 EduWell
@@ -57,163 +55,189 @@ TemplateMo 573 EduWell
 https://templatemo.com/tm-573-eduwell
 
 -->
-</head>
+  </head>
 
-<body>
-
-
+  <body>
     <!-- ***** Header Area Start ***** -->
     <header class="header-area header-sticky">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <nav class="main-nav">
-                        <!-- ***** Logo Start ***** -->
-                        <a href="index.html" class="logo">
-                            MUSEUM OF ISLAMIC ART
-                        </a>
-                        <!-- ***** Logo End ***** -->
-                        <!-- ***** Menu Start ***** -->
-                        <ul class="nav">
-                            <li><a href="#top" class="active">Home</a></li>
-                            <li><a href="events.html">Events</a></li>
-                            <li><a href="exhibitions.html">Exhibitions</a></li>
-                            <li class="has-sub">
-                                <a href="javascript:void(0)">Pages</a>
-                                <ul class="sub-menu">
-                                    <li><a href="about-us.html">About Us</a></li>
-                                    <li><a href="arts.html">Art</a></li>
-                                    <li><a href="tickets.html">Tickets</a></li>
-                                    <li><a href="merch.html">Merch</a></li>
-                                </ul>
-                            </li>
-                            <li class="scroll-to-section"><a href="#testimonials">Feedback</a></li>
-                            <li class="scroll-to-section"><a href="#contact-section">Contact Us</a></li>
-                        </ul>
-                        <a class='menu-trigger'>
-                            <span>Menu</span>
-                        </a>
-                        <!-- ***** Menu End ***** -->
-                    </nav>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="main-nav">
+              <!-- ***** Logo Start ***** -->
+              <a href="index.html" class="logo"> MUSEUM OF ISLAMIC ART </a>
+              <!-- ***** Logo End ***** -->
+              <!-- ***** Menu Start ***** -->
+              <ul class="nav">
+                <li><a href="#top" class="active">Home</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="exhibitions.html">Exhibitions</a></li>
+                <li class="has-sub">
+                  <a href="javascript:void(0)">Pages</a>
+                  <ul class="sub-menu">
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="arts.html">Art</a></li>
+                    <li><a href="tickets.html">Tickets</a></li>
+                    <li><a href="merch.html">Merch</a></li>
+                  </ul>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="#testimonials">Feedback</a>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="#contact-section">Contact Us</a>
+                </li>
+              </ul>
+              <a class="menu-trigger">
+                <span>Menu</span>
+              </a>
+              <!-- ***** Menu End ***** -->
+            </nav>
+          </div>
         </div>
+      </div>
     </header>
     <!-- ***** Header Area End ***** -->
 
     <!-- ***** Main Banner Area Start ***** -->
     <section class="main-banner" id="top">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 align-self-center">
-
-                </div>
-                <div id="bannerdiv"><img id="slide" src="assets/images/collectionBanner.jpg" alt=""></div>
-
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 align-self-center"></div>
+          <div id="bannerdiv">
+            <img id="slide" src="assets/images/collectionBanner.jpg" alt="" />
+          </div>
         </div>
+      </div>
     </section>
     <!-- ***** Main Banner Area End ***** -->
 
-
     <!-- ***** Collections Images ***** -->
 
-<div class="collection">
+    <div class="collection">
+      <h1>QMI Collections</h1>
+      <hr />
 
-    <h1>QMI Collections</h1>
-    <hr>
+      <h4>Qatar Islamic Museum has One of the world's greatest collections</h4>
 
-    <h2>PORTFOLIO</h2>
-    <p>Qatar Islamic Museum has One of the world's greatest collections</p>
+      <!-- Portfolio Gallery Grid -->
 
-    <!-- Portfolio Gallery Grid -->
-  
-    <div class="row">
+      <div class="row">
         <div id="products">
-        <div class="card">
-            <img src="./assets/images/collecCavourVase.jpg" alt="Denim Jeans" style="width:100%">
-            <h1>Vase</h1>
+          <div class="card">
+            <img
+              src="./assets/images/collecCavourVas.jpg"
+              alt="Denim Jeans"
+              style="width: 100%"
+            />
+            <h4>THE CAVOUR VASE</h4>
             <p class="price">$19.99</p>
-            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <p>Egypt or Syria, late 13th century.</p>
+
             <p><button>Add to Cart</button></p>
-        </div>
-        <div class="card">
-            <img src="/./assets/images/collec1.jpg" alt="Denim Jeans" style="width:100%">
-            <h1>Were Dish</h1>
+          </div>
+          <div class="card">
+            <img
+              src="./assets/images/collec1.jpg"
+              alt="Denim Jeans"
+              style="width: 100%"
+            />
+            <h4>WARE DISH</h4>
             <p class="price">$19.99</p>
-            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <p>Damascus ware - Iznik, Turkey, 16th century</p>
+            
             <p><button>Add to Cart</button></p>
-        </div>
-        <div class="card">
-            <img src="./assets/images/collecDohaHind.jpg" alt="Denim Jeans" style="width:100%">
-            <h1>collecDohaHind</h1>
+          </div>
+          <div class="card">
+            <img
+              src="./assets/images/collecDohaHind.jpg"
+              alt="Denim Jeans"
+              style="width: 100%"
+            />
+            <h4>THE DOHA HIND</h4>
             <p class="price">$19.99</p>
-            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <p>Spain, Madinat al-Zahra MW.7.1997</p>
             <p><button>Add to Cart</button></p>
+          </div>
+
+          <div class="card">
+            <img
+              src="./assets/images/collecGoldClass.jpg"
+              alt="Denim Jeans"
+              style="width: 100%"
+            />
+            <h4>GOLD AND GLASS</h4>
+            <p class="price">$19.99</p>
+            <p>Syria (Raqqa), mid-12th century</p>
+            <p><button>Add to Cart</button></p>
+          </div>
+
+
+           <div class="card">
+            <img
+              src="./assets/images/collecJar.jpg"
+              alt="Denim Jeans"
+              style="width: 100%"
+            />
+            <h4>LUSTERWARE JAR</h4>
+            <p class="price">$19.99</p>
+            <p>Mamluk, Syria, 14th century</p>
+            <p><button>Add to Cart</button></p>
+          </div>
+
+
+           <div class="card">
+            <img
+              src="./assets/images/collecBucket.jpg"
+              alt="Denim Jeans"
+              style="width: 100%"
+            />
+            <h4>ENAMELLED BUCKET</h4>
+            <p class="price">$19.99</p>
+            <p>Egypt or Syria, mid 14th century</p>
+            <p><button>Add to Cart</button></p>
+          </div>
         </div>
-        </div>
-        <div class="column">
-            <div class="content">
-                <img src="./assets/images/collecCavourVase.jpg" alt="Mountains" style="width:100%">
-                <h3>THE CAVOUR VASE</h3>
-                <p>Egypt or Syria, late 13th century.</p>
-            </div>
-        </div>
-        <div class="column">
-            <div class="content">
-                <img src="./assets/images/feedback.jpg" alt="Lights" style="width:100%">
-                <h3>OTTOMAN DAMASCUS WARE DISH</h3>
-                <p>Damascus ware - Iznik, Turkey, 16th century.</p>
-            </div>
-        </div>
-        <div class="column">
-            <div class="content">
-                <img src="./assets/images/merch.jpg" alt="Nature" style="width:100%">
-                <h3>THE DOHA HIND</h3>
-                <p>Spain, Madinat al-Zahra MW.7.1997.</p>
-            </div>
-        </div>
-        <div class="column">
-            <div class="content">
-                <img src="./assets/images/museum.jpg" alt="Mountains" style="width:100%">
-                <h3>GOLD AND GLASS</h3>
-                <p>Syria (Raqqa), mid-12th century.</p>
-            </div>
-        </div>
+
+      
+
+      <!-- END MAIN -->
     </div>
-
-    <div class="content">
-        <img src="bear.jpg" alt="Bear" style="width:100%">
-        <h3>Some Other Work</h3>
-        <p>Lorem ipsum..</p>
-    </div>
-
-    <!-- END MAIN -->
-</div>
-
 
     <section class="contact-us" id="contact-section">
-        <div class="container">
-            <div class="row">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="social-icons">
+              <li>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-rss"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-dribbble"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-12">
+            <p class="copyright">
+              Copyright © 2022 MIA Co., Ltd. All Rights Reserved.
 
-
-                <div class="col-lg-12">
-                    <ul class="social-icons">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
-                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-12">
-                    <p class="copyright">Copyright © 2022 MIA Co., Ltd. All Rights Reserved.
-
-                        <br>Design: <a rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a>
-                    </p>
-                </div>
-            </div>
+              <br />Design:
+              <a rel="sponsored" href="https://templatemo.com" target="_blank"
+                >TemplateMo</a
+              >
+            </p>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Scripts -->
@@ -229,52 +253,58 @@ https://templatemo.com/tm-573-eduwell
     <script src="assets/js/slick-slider.js"></script>
     <script src="assets/js/custom.js"></script>
     <script>
-        //according to loftblog tut
-        $('.nav li:first').addClass('active');
+      //according to loftblog tut
+      $(".nav li:first").addClass("active");
 
-        var showSection = function showSection(section, isAnimate) {
-            var
-                direction = section.replace(/#/, ''),
-                reqSection = $('.section').filter('[data-section="' + direction + '"]'),
-                reqSectionPos = reqSection.offset().top - 0;
+      var showSection = function showSection(section, isAnimate) {
+        var direction = section.replace(/#/, ""),
+          reqSection = $(".section").filter(
+            '[data-section="' + direction + '"]'
+          ),
+          reqSectionPos = reqSection.offset().top - 0;
 
-            if (isAnimate) {
-                $('body, html').animate({
-                    scrollTop: reqSectionPos
-                },
-                    800);
-            } else {
-                $('body, html').scrollTop(reqSectionPos);
-            }
+        if (isAnimate) {
+          $("body, html").animate(
+            {
+              scrollTop: reqSectionPos,
+            },
+            800
+          );
+        } else {
+          $("body, html").scrollTop(reqSectionPos);
+        }
+      };
 
-        };
-
-        var checkSection = function checkSection() {
-            $('.section').each(function () {
-                var
-                    $this = $(this),
-                    topEdge = $this.offset().top - 80,
-                    bottomEdge = topEdge + $this.height(),
-                    wScroll = $(window).scrollTop();
-                if (topEdge < wScroll && bottomEdge > wScroll) {
-                    var
-                        currentId = $this.data('section'),
-                        reqLink = $('a').filter('[href*=\\#' + currentId + ']');
-                    reqLink.closest('li').addClass('active').
-                        siblings().removeClass('active');
-                }
-            });
-        };
-
-        $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function (e) {
-            e.preventDefault();
-            showSection($(this).attr('href'), true);
+      var checkSection = function checkSection() {
+        $(".section").each(function () {
+          var $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+          if (topEdge < wScroll && bottomEdge > wScroll) {
+            var currentId = $this.data("section"),
+              reqLink = $("a").filter("[href*=\\#" + currentId + "]");
+            reqLink
+              .closest("li")
+              .addClass("active")
+              .siblings()
+              .removeClass("active");
+          }
         });
+      };
 
-        $(window).scroll(function () {
-            checkSection();
-        });
+      $(".main-menu, .responsive-menu, .scroll-to-section").on(
+        "click",
+        "a",
+        function (e) {
+          e.preventDefault();
+          showSection($(this).attr("href"), true);
+        }
+      );
+
+      $(window).scroll(function () {
+        checkSection();
+      });
     </script>
-</body>
-
+  </body>
 </html>

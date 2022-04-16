@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "jest": "^27.5.1"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "jest"
   },
@@ -20,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/FatimaAbouMaali/project/issues"
   },
-  "homepage": "https://github.com/FatimaAbouMaali/project#readme"
+  "homepage": "https://github.com/FatimaAbouMaali/project#readme",
+  "dependencies": {
+    "jest": "^27.5.1"
+  }
 }
